@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Desafio - SideBar</title>
+    <link rel="StyleSheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <div class="logo_name">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <button>
+            <img id="btn" src="images/menu.svg" alt="" />
+          </button>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <img id="search" src="images/search.svg" alt="" />
+            <input placeholder="Search" />
+            <span class="tooltip">Search</span>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="images/grid.svg" alt="" />
+              <span class="list_name">Dashboard</span>
+            </a>
+            <span class="tooltip">Dashboard</span>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="images/pet.svg" alt="" />
+              <span class="list_name">Pets</span>
+            </a>
+            <span class="tooltip">Pets</span>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="images/user.svg" alt="" />
+              <span class="list_name">Clientes</span>
+            </a>
+            <span class="tooltip">Clientes</span>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="images/vet.svg" alt="" />
+              <span class="list_name">Vests</span>
+            </a>
+            <span class="tooltip">Vests</span>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="images/settings.svg" alt="" />
+              <span class="list_name">Settings</span>
+            </a>
+            <span class="tooltip">Settings</span>
+          </li>
+        </ul>
+        <div class="profile_content">
+          <div class="profile">
+            <div class="profile_details">
+              <img src="images/photo.jpg" alt="" />
+              <div class="client_name">
+                <div class="name">Lisa</div>
+                <div class="dog">sun</div>
+              </div>
+            </div>
+            <img id="log_out" src="images/log-out.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home_content">
+      <div class="text">Dashboard</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
